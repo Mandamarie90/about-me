@@ -6,9 +6,15 @@ document.write("Nice! " + color + " is cool.");
 
 function doYouLikeCats() {
     let userLikesCats = confirm("Do you like cats?");
-    if(userLikesCats) {
+    if( userLikesCats ) {
         return "We just became bestfriends!";
     } else {
-        return "Aww.. thats so sad!";
+        return "Aww... thats so sad!";
     }
+}
+
+function numberOfCats(){
+    let cats= prompt("How many cats do you have?");
+    cats = Number(cats);
+    let sentence= "Wow! You have " + cats + " cats.";
 }
