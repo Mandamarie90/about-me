@@ -20,8 +20,8 @@ function multiInputAlert() {
     }
 // Add inputs into a single message
 var message = "Thank you, " + input1 + "\n";
-message +=  input2 + "for subscribing with email"+"\n";
-message += " " + input3+ ".";
+message +=  input2 + " for subscribing using email "+"\n";
+message +=  input3 + ".";
 
 // Display the message in an alert
 alert(message);
