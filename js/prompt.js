@@ -5,7 +5,7 @@ document.write("Nice! " + color + " is cool.");
 }
 
 function doYouLikeCats() {
-    let userLikesCats = confirm ("Do you love cats?");
+    let userLikesCats = confirm("Do you like cats?");
     if(userLikesCats) {
         return "We just became bestfriends!";
     } else {
