@@ -3,10 +3,12 @@
     <head>
         <title>Family</title>
         <link rel="stylesheet" href="stylesheets/styles.css"/>
+        <script src="js/prompt.js"></script>
     </head>
     <body>
         <header><h1>Family</h1>
-            <nav><ul>
+            <nav>
+                <ul>
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -22,6 +24,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section>
             <h2> Output Section</h2>
@@ -35,26 +38,22 @@
                     </script>
                 </li>
                 <li>
-                    <script>
-                        let cats= confirm ("Do you love cats?");
-                        if( cats === true ) {
-                            document.write ("Me too!");
-                        } else {
-                            document.write("Aww! Too bad!");
-                        }      
-                     </script>
+                <script> favColor();</script>
                 </li>
                 <li>
-                    <script src="js/prompt.js"></script>
+                    <script>
+                        let youLikeCats = doYouLikeCats(); 
+                        document.write(youLikeCats);
+                     </script>
                 </li>
             </ul>
-            </section>
-            <section>
-<img width="30%" src="./Images/hubby.png" />
+        </section>
+        <section>
+            <img width="30%" src="./Images/hubby.png" />
         </section>
         <section> 
             <p>
-<b><i>This is my husband, Irving. </i></b>
+               <b><i>This is my husband, Irving. </i></b>
             </p>
         </section>
         <section>
