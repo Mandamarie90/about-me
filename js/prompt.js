@@ -17,4 +17,5 @@ function numberOfCats(){
     let cats= prompt("How many cats do you have?");
     cats = Number(cats);
     let sentence= "Wow! You have " + cats + " cats.";
+    document.write(sentence)
 }
