@@ -19,3 +19,11 @@ function numberOfCats(){
     let sentence= "Wow! You have " + cats + " cats.";
     document.write(sentence);
 }
+function rateMe() {
+    let rating = prompt("On a scale of 1-5 how much do you like me?")
+    rating = Number(rating);
+    for( let i = 0; i < rating; i++ ) {
+      document.write("🐱");
+    }
+  }
+  
