@@ -1,107 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Family</title>
-        <link rel="stylesheet" href="stylesheets/styles.css"/>
-        <script src="js/prompt.js"></script>
-    </head>
-    <body>
-        <header><h1>Family</h1>
-            <nav>
-                <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="spouse.html">Spouse</a>
-                </li>
-                <li>
-                    <a href="kids.html">Kids</a>
-                </li>
-                <li>
-                    <a href="pets.html">Pets</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2> Output Section</h2>
-            <ul>
-                <li>
-                    <script>
-                        //Declare variable called "name"
-                        let name= prompt("What is your name?");
-
-                        document.write("Hello " + name + "! Welcome to my page.");
-                    </script>
-                </li>
-                <li>
-                <script> favColor();</script>
-                </li>
-                <li>
-                    <script>
-                        let youLikeCats = doYouLikeCats(); 
-                        document.write(youLikeCats);
-                     </script>
-                </li>
-                <li>
-                    <script>numberOfCats();</script>
-                </li>
-                <li>
-                    <script> rateMe(); </script>
-                </li>
-                <li>
-                    <script src="js/functions.js"></script>
-                    <script>multiInputAlert();</script>
-                </li>
-                
-            </ul>
-        </section>
-        <section>
-            <img width="30%" src="./Images/hubby.png" />
-        </section>
-        <section> 
-            <p>
-               <b><i>This is my husband, Irving. </i></b>
-            </p>
-        </section>
-        <section>
-            <img width="40%"  src="./Images/kids-all.png" />
-            <img width="40%" src="./Images/kids-5.png" />
-        </section>
-    
-        <section>
-            <p><b>These are our children</b>
-                <ul>
-                    <li>Sarah (17)</li>
-                    <li>Adrian (14)</li>
-                    <li>Hailey (14)</li>
-                    <li>Aaliyah (12)</li>
-                    <li>Weston (4)</li>
-                    <li>Elijah (2)</li>
-                </ul>
-            </p>
-        </section>
-        <section>
-            <img width="50%" src="./Images/kitty.png" />
-        </section>
-        <section>
-            <p>
-                This is our 8 month old cat named "Kitty".
-            </p>
-        </section>
-        <section>
-            <p>
-                <b>Fun fact! </b> </p>
-                    <p><b>My son, Weston, is allergic to our cat but is quickly growing out of it.</b>
-                    </b></p>
-        </section>
-    </main>
-
-    <footer>
-        <h2>Copyright(c) 2024 Amanda</h2>
-    </footer>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me Guessing Game</title>
+  <link rel="stylesheet" href="./stylesheet/styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>About Me </h1>
+    <p>Hi! Welcome to my guessing game. Let's see how well you know me!</p>
+    <p>Here's a little about me:</p>
+    <ul>
+      <li>
+          I have 5 children ages 2 to 17, and 1 bonus daughter. 
+      </li>
+      <li>I obtained my Medical Assistant certification in 2015</li>
+      <li>I have 9 years of medical assisting experience</li>
+      <li>My goal is to become a software engineer</li>
+    </ul>
+    <script src="./js/script.js"></script>
+  </div>
+</body>
 </html>
+

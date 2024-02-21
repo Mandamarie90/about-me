@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8e5e5; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e6b8b8; 
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #d81b60; 
+  }
+  
+  p {
+    color: #8e4242;
+    line-height: 1.6;
+  }
+  
+  ul {
+    color: #8e4242; 
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
