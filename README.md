@@ -1,5 +1,8 @@
 # About me
 
-## Lighthouse screenshot
+## Tuesday 02/20/24
 
-![lighthouse](/Images/Screenshot%202024-02-20%20at%209.41.46 PM.png)
+![lighthouse #1](./Images/Lighthouse.png)
+
+## Wednesday 02/21/24
+![lighthouse #2](./Images/Lighthouse2.png)
