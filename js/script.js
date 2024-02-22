@@ -24,19 +24,19 @@ function displayFinalMessage() {
   alert('Thanks for playing, ' + user + '! You got ' + totalCorrect + ' out of 7 questions correct.');
 }
 
-if (askQuestion('Did I receive my Medical Assistant certification in 2015? (y/n)', 'y')) {
+if (askQuestion('Did I receive my Medical Assistant certification in 2015? (y/n)', 'y')); {
   totalCorrect++;
 }
-if (askQuestion('Do I have 7 years of medical assisting experience? (y/n)', 'y')){
+if (askQuestion('Do I have 7 years of medical assisting experience? (y/n)', 'y'));{
   totalCorrect++;
 }
-if (askQuestion('Am I aiming to become a software engineer? (y/n)', 'y')){
+if (askQuestion('Am I aiming to become a software engineer? (y/n)', 'y'));{
   totalCorrect++;
 }
-if (askQuestion('Is the sky blue? (y/n)', 'y')){
+if (askQuestion('Is the sky blue? (y/n)', 'y'));{
   totalCorrect++;
 }
-if (askQuestion('Is the Earth flat? (y/n)', 'n')){
+if (askQuestion('Is the Earth flat? (y/n)', 'n'));{
   totalCorrect++;
 }
 
